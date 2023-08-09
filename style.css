@@ -1,0 +1,19 @@
+form {
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+.error::before{
+    content: "❌ ";
+}
+
+.ok{
+    color: green;
+}
+
+.ok::before{
+    content: "✅ ";
+}
